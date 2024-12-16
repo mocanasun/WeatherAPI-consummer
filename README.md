@@ -18,3 +18,10 @@ The app components interacts via abstract layers - each component is completely 
  - the viewModel handles user events, computes new state and update StateFlow value.
  - Error handling for retrofit calls
 
+
+The app :
+
+ - At first run: you see the message “No city selected”
+ - After a search with error or no result an empty screen will be shown.
+ - After a valid search a card will be shown that could be expanded with a click and reverse is possible.
+ - The last selection is saved that will be visible at next app run.
